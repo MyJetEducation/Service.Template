@@ -14,7 +14,7 @@ namespace Service.AssetsDictionary
 {
     public class Program
     {
-        public const string SettingsFileName = ".myjetwallet";
+        public const string SettingsFileName = ".myjeteducation";
 
         public static SettingsModel Settings { get; private set; }
 
