@@ -1,9 +1,9 @@
 {
-  "author": "MyJetWallet",
-  "classifications": [ "MyJetService" ],
-  "name": "MyJetService",
-  "identity": "MyJetService",
-  "shortName": "myjetservice",
+  "author": "MyJetEducation",
+  "classifications": [ "MyJetEducation" ],
+  "name": "MyJetEducation",
+  "identity": "MyJetEducation",
+  "shortName": "myjeteducation",
   "preferNameDirectory": "true",
   "tags": {
     "language": "C#"
