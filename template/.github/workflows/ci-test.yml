@@ -52,8 +52,8 @@ jobs:
 #    - name: Publish image Azure
 #      uses: docker/build-push-action@v1
 #      with:
-#        username: ${{ secrets.ST_DOCKER_USER }}
-#        password: ${{ secrets.ST_DOCKER_PASSWORD }}
+#        username: ${{ secrets.AZ_DOCKER_USER }}
+#        password: ${{ secrets.AZ_DOCKER_PASSWORD }}
 #        path: ./publish-api
 #        registry: ${{ secrets.AZ_REGISTRY }}
 #        repository: education/service.assetsdictionary-test
