@@ -1,4 +1,4 @@
-![.NET Core](https://github.com/MyJetWallet/Service.Template/workflows/.NET%20Core/badge.svg)
+![.NET Core](https://github.com/MyJetEducation/Service.Template/workflows/.NET%20Core/badge.svg)
 
 # HOW TO USE TEMPLATE
 
@@ -12,13 +12,13 @@ where ${path} is the **full** path to the clonned directory (where the folder .t
 ### Create
 
 `
-dotnet new myjetservice -n {ServiceName} -o {ServiceDirectory}
+dotnet new myjeteducation -n {ServiceName} -o {ServiceDirectory}
 `
 
 e.g.
 
 `
-dotnet new myjetservice -n SomeService -o SomeServiceFoulder
+dotnet new myjeteducation -n SomeService -o SomeServiceFoulder
 `
 # Features added to the template
 
@@ -51,8 +51,8 @@ By default application do not support SSL and HTTPS. Client for GRPS should use 
 ### Environment variables used
 |Variable|Description|Required|Default value|
 |-------|-------|-------|-------|
-|SETTINGS_URL|Url to settings yaml. If utl not specified then settings will be readed from file `.myjetwallet`|no|null|
-|ConsoleOutputLogLevel|Print log to console from this level (Debug,Information,Warning,Error,Verbose)|no|null|
+|SETTINGS_URL|Url to settings yaml. If utl not specified then settings will be readed from file `.myjeteducation`|no|null|
+|ConsoleOutputLogLevel|Print log to console from this level (Default,Debug,Information,Warning,Error,Verbose)|no|null|
 |HOSTNAME|Will be used as the `host-name` key in the logs. If not specified, the OS user name will be used instaed|no|`null`|
 
 
